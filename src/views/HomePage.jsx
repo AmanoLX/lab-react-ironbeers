@@ -16,7 +16,7 @@ const HomePage = () => {
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere, dolorem, distinctio vero dolorum hic fugiat molestiae odio neque nisi repudiandae quidem harum laudantium aliquid nostrum laboriosam. Nemo aperiam laboriosam ducimus, blanditiis est, suscipit libero rem optio enim, quo dolorum."
       />
       <HomeCard
-        path="/beers/:id"
+        path="/beers/random"
         title="Random Beer"
         image={RandomBeerImg}
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere, dolorem, distinctio vero dolorum hic fugiat molestiae odio neque nisi repudiandae quidem harum laudantium aliquid nostrum laboriosam. Nemo aperiam laboriosam ducimus, blanditiis est, suscipit libero rem optio enim, quo dolorum."

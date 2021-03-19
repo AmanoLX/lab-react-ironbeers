@@ -13,3 +13,11 @@ export const singleBeer = async (id) => {
   console.log(response);
   return response.data;
 };
+
+export const randomBeer = async () => {
+  const response = await axios.get(
+    'https://ih-beers-api2.herokuapp.com/beers/random'
+  );
+  console.log(response);
+  return response.data;
+};
