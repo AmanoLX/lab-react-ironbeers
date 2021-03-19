@@ -22,7 +22,7 @@ const HomePage = () => {
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere, dolorem, distinctio vero dolorum hic fugiat molestiae odio neque nisi repudiandae quidem harum laudantium aliquid nostrum laboriosam. Nemo aperiam laboriosam ducimus, blanditiis est, suscipit libero rem optio enim, quo dolorum."
       />
       <HomeCard
-        path="/new-beer"
+        path="/new"
         title="New Beer"
         image={NewBeerImg}
         text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere, dolorem, distinctio vero dolorum hic fugiat molestiae odio neque nisi repudiandae quidem harum laudantium aliquid nostrum laboriosam. Nemo aperiam laboriosam ducimus, blanditiis est, suscipit libero rem optio enim, quo dolorum."

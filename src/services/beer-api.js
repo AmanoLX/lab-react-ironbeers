@@ -21,3 +21,10 @@ export const randomBeer = async () => {
   console.log(response);
   return response.data;
 };
+
+export const newBeer = async () => {
+  const response = await axios.post(
+    'https://ih-beers-api2.herokuapp.com/beers/new'
+  );
+  return response.data;
+};
